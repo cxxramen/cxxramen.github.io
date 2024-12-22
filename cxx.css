@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #9eb4ac !important; /*#9eb4ac*/
+}
+
+footer {
+    background-color: #3f544c;
+    color: white;
+}
+
+#content {
+    background-color: #9eb4ac !important;
+}
+
+
+
+img {
+    border: solid white 0.5em;
+}
+
+#ramen_icon {
+    width: 80px;
+    border: none;
+    float: left;
+}
+
+#ueberschrift {
+    font-size: 4rem;
+}
+
+.text {
+    background-color: white;
+    padding: 2%;
+    font-size: 1.2rem;
+}
+
+#navigation {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link.active  {
+    background-color: black !important;
+    color: white !important;
+}
+
+.link {
+    color: #165e42;
+}
+
+#fertig {
+    width: 100%;
+}
+
+#zutaten {
+    display: grid;
+    grid-template-columns: 38% 62%;
+    gap: 1%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+#liste {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#dashi {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+#hack_tofu {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+#nudeln_toppings {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+@media (max-width: 1200px) {
+    
+
+    #liste {
+        display: block;
+    }
+
+    #zutaten {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+
+    .text {
+        font-size: 1.1rem;
+    }
+
+    #navigation {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    
+
+    .text {
+        font-size: 1rem;
+    }
+
+    #navigation {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .text {
+        font-size: 0.8rem;
+    }
+
+    #navigation {
+        font-size: 0.8rem;
+    }
+
+    #zutaten {
+        display: block;
+        margin-bottom: 5%;
+    }
+
+    #dashi {
+        display: block;
+        margin-bottom: 5%;
+    }
+
+    #hack_tofu {
+        display: block;
+        margin-bottom: 5%;
+    }
+
+    #nudeln_toppings {
+        display: block;
+        margin-bottom: 5%;
+    }
+
+    #ueberschrift {
+        font-size: 2.7rem;
+    }
+
+    #ramen_icon {
+        width: 50px;
+    }
+}
